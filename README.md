@@ -18,6 +18,7 @@ Este repositório contém:
 - *evaluating_Tf2_Object_detection_model.ipynb* - notebook para avaliar o modelo no goole colab.
 - *object_detection_grape_inferene.ipynb* - notebook para fazer inferência em imagens de teste com o modelo treinado.
 - *saved_model.pb* - modelo salvo.
+- *object_detection_grape_distance.ipynb* - notebook com cálculo da distância [pixel] entre cachos de uva.
 
 A seguir são descritos os passos seguidos para completar a tarefa:
 1. Configurei o ambiente para o *Tensorflow2 Object Detection API*
@@ -83,4 +84,4 @@ Nas figuras abaixo pode-se ver a inferência em algumas imagens.
   <img src="doc/inf3.png">
 </p>
 
-13. Pediu-se ainda para calcular a distância (em pixels) entre os cachos de uva. Uma vez que já temos o modelo rodando inferências, as quais retornam um dicionário *output_dict* com as predições, basta calcular a distânica entre os *predicted objects*. O que fiz foi calcular o centróide de cada *perdicted box* e então calcular a distância entre os centróides.
+13. Pediu-se ainda para calcular a distância (em pixels) entre os cachos de uva. Uma vez que já temos o modelo rodando inferências, as quais retornam um dicionário *output_dict* com as predições, basta calcular a distânica entre os *predicted objects*. O que fiz foi calcular o centróide de cada *perdicted box* e então calcular a distância entre os centróides. Neste repositório há um notebook do google colab com estes cálculos. ("*object_detection_grape_distance.ipynb*)
