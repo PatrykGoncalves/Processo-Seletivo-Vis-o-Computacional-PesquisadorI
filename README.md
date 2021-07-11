@@ -18,3 +18,23 @@ Este repositório contém:
 - *evaluating_Tf2_Object_detection_model.ipynb* - notebook para avaliar o modelo no goole colab.
 - *object_detection_grape_inferene.ipynb* - notebook para fazer inferência em imagens de teste com o modelo treinado.
 
+A seguir são descritos os passos seguidos para completar a tarefa:
+1. Configurei o ambiente para o *Tensorflow2 Object Detection API*
+2. Como próximo passo, analizei brevemente as imagens e seus rótulos utilizando o cvat(Computer Vision Annotation Tool)
+
+<p align="center">
+  <img src="doc/cvat.png">
+</p>
+
+3. Exportei o dataset no formato *pascal voc*.
+4. Organizei os o dataset em treino e teste
+
+<p align="center">
+  <img src="doc/cvat.png">
+</p>
+
+5. Rodei o comando *python xml_to_csv.py* para gerar os arquivos csv para as imagens de treino e teste
+
+<p align="center">
+  <img src="doc/csv.png">
+</p>
