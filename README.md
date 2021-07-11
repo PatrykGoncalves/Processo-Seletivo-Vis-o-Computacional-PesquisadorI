@@ -67,8 +67,8 @@ A imagem abaixo mostra uma tela do TensorBoard durante uma etapa de avaliação
   <img src="doc/Avaliação.png">
 </p>
 
-12. Por fim o modelo trinado foi salvo e utilizado no notebook para inferência (*"object_detection_grape_inferene.ipynb"*)
-Nas figuras abaixo pode-se ver a infêrencia em algumas imagens.
+12. Por fim o modelo treinado foi salvo e utilizado no notebook para inferência (*"object_detection_grape_inferene.ipynb"*)
+Nas figuras abaixo pode-se ver a inferência em algumas imagens.
 
 <p align="center">
   <img src="doc/inf1.png">
