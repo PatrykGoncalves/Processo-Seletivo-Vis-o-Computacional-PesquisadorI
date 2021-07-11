@@ -22,7 +22,7 @@ Este repositório contém:
 
 A seguir são descritos os passos seguidos para completar a tarefa:
 1. Configurei o ambiente para o *Tensorflow2 Object Detection API*
-2. Como próximo passo, analizei brevemente as imagens e seus rótulos utilizando o cvat(Computer Vision Annotation Tool)
+2. Como próximo passo, analisei brevemente as imagens e seus rótulos utilizando o cvat(Computer Vision Annotation Tool)
 
 <p align="center">
   <img src="doc/cvat.png">
