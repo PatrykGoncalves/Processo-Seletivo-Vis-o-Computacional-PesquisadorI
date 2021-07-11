@@ -60,4 +60,11 @@ Abaixo pode ser vista uma imagem da saída do colab do modelo em treinamento
   <img src="doc/treinamento.png">
 </p>
 
-11. Avaiei o modelo no google colab (notebook disponibilizado no repositório *"evaluating_Tf2_Object_detection_model.ipynb"*)
+11. Avaliei o modelo no google colab (notebook disponibilizado no repositório *"evaluating_Tf2_Object_detection_model.ipynb"*)
+A imagem abaixo mostra uma tela do TensorBoard durante uma etapa de avaliação 
+
+<p align="center">
+  <img src="doc/Avaliação.png">
+</p>
+
+12.
