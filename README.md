@@ -28,7 +28,7 @@ A seguir são descritos os passos seguidos para completar a tarefa:
 </p>
 
 3. Exportei o dataset no formato *pascal voc*.
-4. Organizei os o dataset em treino e teste
+4. Organizei o dataset em treino e teste
 
 <p align="center">
   <img src="doc/dataset.png">
