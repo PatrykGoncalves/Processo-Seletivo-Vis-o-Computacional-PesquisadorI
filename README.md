@@ -2,7 +2,7 @@
 Prova prática parte do processo seletivo para a vaga de pesquisador I em visão computacional.
 
 Para resolver o problema proposto utilizei a API para detecção de objetos do tensorflow2. Este texto descreve de forma breve os passos seguidos para completar a tarefa.
-O problema consiste em fazer a detecção de cachos de uva em imagens. O conjunte de imagens rotuladas foi disponibilizado pela banca avaliadora.
+O problema consiste em fazer a detecção de cachos de uva em imagens. O conjunto de imagens rotuladas foi disponibilizado pela banca avaliadora.
 
 Este repositório contém:
 - *xml_to_csv.py* - para gerar arquivos csv para as imagens de treino e teste.
