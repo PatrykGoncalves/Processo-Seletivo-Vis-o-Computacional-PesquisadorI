@@ -82,3 +82,5 @@ Nas figuras abaixo pode-se ver a inferência em algumas imagens.
 <p align="center">
   <img src="doc/inf3.png">
 </p>
+
+13. Pediu-se ainda para calcular a distância (em pixels) entre os cachos de uva. Uma vez que já temos o modelo rodando inferências, as quais retornam um dicionário *output_dict* com as predições, basta calcular a distânica entre os *predicted objects*. O que fiz foi calcular o centróide de cada *perdicted box* e então calcular a distância entre os centróides.
