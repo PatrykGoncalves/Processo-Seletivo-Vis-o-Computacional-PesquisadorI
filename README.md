@@ -17,6 +17,7 @@ Este repositório contém:
 - *training_Tf2_Object_detection_model.ipynb* - notebook para treinar o modelo no google colab.
 - *evaluating_Tf2_Object_detection_model.ipynb* - notebook para avaliar o modelo no goole colab.
 - *object_detection_grape_inferene.ipynb* - notebook para fazer inferência em imagens de teste com o modelo treinado.
+- *saved_model.pb* - modelo salvo.
 
 A seguir são descritos os passos seguidos para completar a tarefa:
 1. Configurei o ambiente para o *Tensorflow2 Object Detection API*
