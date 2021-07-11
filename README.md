@@ -30,7 +30,7 @@ A seguir são descritos os passos seguidos para completar a tarefa:
 4. Organizei os o dataset em treino e teste
 
 <p align="center">
-  <img src="doc/cvat.png">
+  <img src="doc/dataset.png">
 </p>
 
 5. Rodei o comando *python xml_to_csv.py* para gerar os arquivos csv para as imagens de treino e teste
@@ -39,4 +39,16 @@ A seguir são descritos os passos seguidos para completar a tarefa:
   <img src="doc/csv.png">
 </p>
 
-6.
+6. Rodei o comando *python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record* para gerar o arquivo tfrecord (treino)
+
+<p align="center">
+  <img src="doc/train_record.png">
+</p>
+
+7. Rodei o comando *python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record* para gerar o arquivo tfrecord (teste)
+
+<p align="center">
+  <img src="doc/test_record.png">
+</p>
+
+8.
