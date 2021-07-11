@@ -38,3 +38,5 @@ A seguir são descritos os passos seguidos para completar a tarefa:
 <p align="center">
   <img src="doc/csv.png">
 </p>
+
+6.
