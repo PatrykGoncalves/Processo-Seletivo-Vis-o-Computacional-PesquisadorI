@@ -51,4 +51,13 @@ A seguir são descritos os passos seguidos para completar a tarefa:
   <img src="doc/test_record.png">
 </p>
 
-8.
+8. Rodei o código *python generate_labelmap.py* para gerar o arquivo labelmap.pbtxt
+9. Ajustei parâmetros no arquivo .config do modelo utilizado (faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8.config) 
+10. Treinei o modelo utilizando o google colab (notebook disponibilizado no repositório *"training_Tf2_Object_detection_model.ipynb"*)
+Abaixo pode ser vista uma imagem da saída do colab do modelo em treinamento
+
+<p align="center">
+  <img src="doc/treinamento.png">
+</p>
+
+11. Avaiei o modelo no google colab (notebook disponibilizado no repositório *"evaluating_Tf2_Object_detection_model.ipynb"*)
