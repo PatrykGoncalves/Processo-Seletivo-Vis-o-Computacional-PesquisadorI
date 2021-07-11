@@ -86,6 +86,6 @@ Nas figuras abaixo pode-se ver a inferência em algumas imagens.
 
 13. Pediu-se ainda para calcular a distância (em pixels) entre os cachos de uva. Uma vez que já temos o modelo rodando inferências, as quais retornam um dicionário *output_dict* com as predições, basta calcular a distânica entre os *predicted objects*. O que fiz foi calcular o centróide de cada *perdicted box* e então calcular a distância entre os centróides. Neste repositório há um notebook do google colab com estes cálculos. ("*object_detection_grape_distance.ipynb*). Os passos são basicamente os seguintes:
 - Obter as coordenadas de cada cacho de uva usando a função *calculate_coord*
-- Calcular o centróide de como box usando a função *calculate_centr*
+- Calcular o centróide de cada box usando a função *calculate_centr*
 - Calcular todas as permutações possíveis com a função *calculate_perm*
 - Calcular a distância entre cada centróide com a função *calculate_centr_distance*
