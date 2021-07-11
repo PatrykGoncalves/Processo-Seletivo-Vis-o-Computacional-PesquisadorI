@@ -34,25 +34,25 @@ A seguir são descritos os passos seguidos para completar a tarefa:
   <img src="doc/dataset.png">
 </p>
 
-5. Rodei o comando *python xml_to_csv.py* para gerar os arquivos csv para as imagens de treino e teste
+5. Executei o comando *python xml_to_csv.py* para gerar os arquivos csv para as imagens de treino e teste
 
 <p align="center">
   <img src="doc/csv.png">
 </p>
 
-6. Rodei o comando *python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record* para gerar o arquivo tfrecord (treino)
+6. Executei o comando *python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record* para gerar o arquivo tfrecord (treino)
 
 <p align="center">
   <img src="doc/train_record.png">
 </p>
 
-7. Rodei o comando *python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record* para gerar o arquivo tfrecord (teste)
+7. Executei o comando *python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record* para gerar o arquivo tfrecord (teste)
 
 <p align="center">
   <img src="doc/test_record.png">
 </p>
 
-8. Rodei o código *python generate_labelmap.py* para gerar o arquivo labelmap.pbtxt
+8. Executei o código *python generate_labelmap.py* para gerar o arquivo labelmap.pbtxt
 9. Ajustei parâmetros no arquivo .config do modelo utilizado (faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8.config) 
 10. Treinei o modelo utilizando o google colab (notebook disponibilizado no repositório *"training_Tf2_Object_detection_model.ipynb"*)
 Abaixo pode ser vista uma imagem da saída do colab do modelo em treinamento
